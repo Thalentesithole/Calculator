@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td colspan="4">
+                <input type="text" id="input" value="0"/>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="digit" onclick="pressedButton(7)">7</td>
+            <td class="digit" onclick="pressedButton(8)">8</td>
+            <td class="digit" onclick="pressedButton(9)">9</td>
+            <td class="operator" onclick="operatorButton('x')">x</td>
+        </tr>
+
+        <tr>
+            <td class="digit" onclick="pressedButton(4)">4</td>
+            <td class="digit" onclick="pressedButton(5)">5</td>
+            <td class="digit" onclick="pressedButton(6)">6</td>
+            <td class="operator" onclick="operatorButton('-')">-</td>
+        </tr>
+
+        <tr>
+            <td class="digit" onclick="pressedButton(1)">1</td>
+            <td class="digit" onclick="pressedButton(2)">2</td>
+            <td class="digit" onclick="pressedButton(3)">3</td>
+            <td class="operator" onclick="operatorButton('+')">+</td>
+        </tr>
+
+        <tr>
+            <td class="digit" colspan="2">0</td>
+            <td class="Ac" onclick="ACButton()">AC</td>
+            <td class="operator" onclick="operatorButton('/')">/</td>
+        </tr>
+
+        <tr>
+            <td class="equal" colspan="4" onclick="equalButton()">=</td>
+        </tr>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>

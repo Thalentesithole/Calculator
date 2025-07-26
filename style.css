@@ -1,0 +1,42 @@
+table{
+    color: #4e494d;
+    text-align: center;
+    border-collapse: collapse;
+    font: normal 3em Ariel, Helvetica, sans-serif
+}
+
+tr{
+    height: 16.02vh;
+    background-color: #4e494d;
+}
+
+td{
+    width: 25vw;
+    border: 1px solid black;
+    color: black;
+}
+
+#input{
+    background-color: rgb(188, 188, 247);
+    text-align: right;
+    width: 100%;
+    font-size: 2em;
+    color: black;
+    border: 0px;
+}
+
+.digit{
+    background-color: #4e494d;
+}
+
+.operator{
+    background-color: #aaaaaa;
+}
+
+.Ac{
+    background-color: #aaaaaa;
+}
+
+.equal{
+    background-color: rgb(2, 68, 248);
+}
